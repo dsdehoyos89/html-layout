@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: stretch;
+    background-color: lightgrey;
+    width:100% ;
+    height: 20vh;
+    
+}
+.box {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    
+}
+.lorem {
+    width:100%;
+    height: 30vh;
+    background-color: antiquewhite;
+}
+.one {
+    background-color: aqua;
+    height:15vh;
+
+}
+
+.two {
+    background-color: lightgreen;
+    height:15vh;
+
+}
+.three {
+    background-color: tan;
+    height:15vh;
+
+}
+.four {
+    background-color:yellow;
+    height:15vh;
+}
+
+.text {
+    font-size: 40px;
+}
